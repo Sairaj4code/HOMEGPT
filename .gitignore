@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.swp
+
+# Virtual environments
+venv/
+.venv/
+myenv/
+
+# Large datasets
+data/*.pt
+*.txt
+
+# Raw training corpus
+finewebedu_first_1gb.txt
+Wizard_of_oz.txt
+
+# Model checkpoints
+checkpoints/
+*.pt
+
+# Generated / temporary files
+*.log

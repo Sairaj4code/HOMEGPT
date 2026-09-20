@@ -1,0 +1,19 @@
+{
+  "version": "large-corpus-v1",
+  "special_tokens": [
+    "<|pad|>",
+    "<|unk|>",
+    "<|bos|>",
+    "<|eos|>",
+    "<|system|>",
+    "<|user|>",
+    "<|assistant|>"
+  ],
+  "target_vocab_size": 8192,
+  "actual_vocab_size": 8192,
+  "base_vocab_size": 6105,
+  "completed_merges": 2080,
+  "merge_training_sample_mb": 32,
+  "merge_training_sample_chars": 33367479,
+  "input_path": "data/combined.txt"
+}
